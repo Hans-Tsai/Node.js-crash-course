@@ -15,4 +15,14 @@ Node.js Crash Course
 [Chapter 02 --- Node.js Basics](https://www.youtube.com/watch?v=OIBIXYLJjsI)
 ---
 - Node.js basics
-- 
+- the `global` object
+- modules & `require()`
+- `Filesystem` core module
+- `Stream` & `Buffer` core modules
+
+[Chapter 03 --- Client & Server]
+---
+- client & server
+- IP addresses & domain
+- `HTTP` core module --- creating a server
+- `localhost` & port numbers
