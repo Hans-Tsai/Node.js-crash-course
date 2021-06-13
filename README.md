@@ -20,7 +20,7 @@ Node.js Crash Course
 - `Filesystem` core module
 - `Stream` & `Buffer` core modules
 
-[Chapter 03 --- Client & Server]
+[Chapter 03 --- Client & Server](https://www.youtube.com/watch?v=-HPZ1leCV8k)
 ---
 - client & server
 - IP addresses & domain
