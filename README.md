@@ -35,3 +35,9 @@ Node.js Crash Course
 - basic routing
 - status codes
 - redirects
+
+[Chapter 05 --- `npm`](https://www.youtube.com/watch?v=bdHE2wHT-gQ) on [ch05](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch05)
+- third party packages
+- install packages globally (e.g. `nodemon`)
+- the `package.json` file & installing packages locally
+- dependencies & sharing code
