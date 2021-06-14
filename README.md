@@ -27,7 +27,7 @@ Node.js Crash Course
 - `HTTP` core module --- creating a server
 - `localhost` & port numbers
 
-[Chpater 04 --- Requests & Responses](https://www.youtube.com/watch?v=DQD00NAUPNk) on [ch04](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch04)
+[Chapter 04 --- Requests & Responses](https://www.youtube.com/watch?v=DQD00NAUPNk) on [ch04](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch04)
 ---
 - `request` object
 - `response` object
