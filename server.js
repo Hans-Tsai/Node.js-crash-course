@@ -1,13 +1,22 @@
 const http = require('http');
 const fs = require('fs');
+const _ = require('lodash');
 
 const server = http.createServer((req, res) => {
-    console.log('request made.');
+    // console.log('request made.');
+
+    /** lodash */
+    const randomNumber = _.random(0, 20);
+    console.log(randomNumber);   // a random number between 0 and 20. E.g. 15
+
+    const greet = _.once(() => console.log('hello'));
+    greet();   // hello
+    greet();   // it won't return anything
 
     // `req.url` - it won't contain `localhost:3000`, and it will just show the rest part of the URL
-    console.log(`req.url: ${req.url}`);   // req.url: /
+    // console.log(`req.url: ${req.url}`);   // req.url: /
     // `req.method` - it will show what kind of HTTP method that we're using
-    console.log(`req.method: ${req.method}`);   // req.method: GET
+    // console.log(`req.method: ${req.method}`);   // req.method: GET
 
     /** @function res.setHeader()
      * @note it gives the client (e.g. the browser) a little more information about what kind of `response` object is coming back to it.
