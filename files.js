@@ -4,7 +4,7 @@
 const fs = require('fs');
 
 /** reading files
- * @note this is the asynchronous version
+ * @async
  * @note `buffer` is basically just a package of data
  * @param path {string} - using relative path
  * @param callback {Function} - this callback function will be fired when the `fs.readFile()` function is complete.
@@ -20,7 +20,7 @@ const fs = require('fs');
 // console.log('Reading files are finished.');   // Reading files are finished.
 
 /** writing files 
- * @note this is the asynchronous version
+ * @async
  * @param path {string} - using relative path
  * @param callback {Function} - this callback function will be fired when the `fs.writeFile()` function is complete.
  * @param data {string | Buffer | TypedArray | DataView | Object}
@@ -36,7 +36,7 @@ const fs = require('fs');
 // });
 
 /** directories 
- * @note this is the asynchronous version
+ * @async
  * @description make a new directory. If the specified directory already existed, then throw an error object.
  * @path {string | Buffer | URL} - specify where to create the new directory
 */
@@ -56,7 +56,7 @@ const fs = require('fs');
 // }
 
 /** deleting files 
- * @note this is the asynchronous version
+ * @async
  * @description remove a specified file or symbolic link
 */
 if (fs.existsSync('./docs/deleteMe.txt')) {
