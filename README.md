@@ -42,3 +42,10 @@ Node.js Crash Course
 - install packages globally (e.g. `nodemon`)
 - the `package.json` file & installing packages locally
 - dependencies & sharing code
+
+[Chapter 06 --- Express app](https://www.youtube.com/watch?v=Lr9WUkeYSA8) on [ch06](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch06)
+---
+- What is express?
+- creating an express app
+- routing & html pages
+- redirects & 404 page
