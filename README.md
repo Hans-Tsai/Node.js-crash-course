@@ -12,7 +12,7 @@ Node.js Crash Course
 - Installing Node.js
 - Running files through Node.js
 
-[Chapter 02 --- Node.js Basics](https://www.youtube.com/watch?v=OIBIXYLJjsI)
+[Chapter 02 --- Node.js Basics](https://www.youtube.com/watch?v=OIBIXYLJjsI) on [ch02](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch02)
 ---
 - Node.js basics
 - the `global` object
@@ -20,9 +20,18 @@ Node.js Crash Course
 - `Filesystem` core module
 - `Stream` & `Buffer` core modules
 
-[Chapter 03 --- Client & Server](https://www.youtube.com/watch?v=-HPZ1leCV8k)
+[Chapter 03 --- Client & Server](https://www.youtube.com/watch?v=-HPZ1leCV8k) on [ch03](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch03)
 ---
 - client & server
 - IP addresses & domain
 - `HTTP` core module --- creating a server
 - `localhost` & port numbers
+
+[Chpater 04 --- Requests & Responses](https://www.youtube.com/watch?v=DQD00NAUPNk) on [ch04](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch04)
+---
+- `request` object
+- `response` object
+- returning HTML pages
+- basic routing
+- status codes
+- redirects
