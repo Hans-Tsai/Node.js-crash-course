@@ -105,4 +105,14 @@
 ---
 - `express` Router
 - MVC basics
+  + stands for `Model`、`View`、`Controller`
+  + MVC is a way of structuring our code & files, and it's not essential but helpful.
+  + Keeps code more modular, reusable and easier to read.
+  + Conclusion:
+    * route file for the routes
+    * `model` file for the data
+    * `controller` file for the handlers
+    * and a `views/` folder for their views
+  + ![MVC_basics](./pics/MVC_basics.png)
 - Controller
+  + ![Controller_illustration](./pics/Controller_illustration.png)
