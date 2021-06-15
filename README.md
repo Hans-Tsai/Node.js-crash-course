@@ -72,3 +72,14 @@
 - using `next()`
 - 3rd party middleware function
 - static files
+
+[Chapter 09 --- MongoDB & Mongoose.js ODM library](https://www.youtube.com/watch?v=bxsemcrY4gQ&t=12s) on [ch09](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch09)
+---
+- introduction to Mongodb
+- Mongodb setup with Atlas
+- `Mongoose.js` ODM library
+  + ![Mongoose_illustration](./pics/Mongoose_illustration.jpeg)
+  + ![Mongoose_Schema](./pics/Mongoose_Schema.jpeg)
+  + ![Mongoose_Model](./pics/Mongoose_Model.jpeg)
+- getting & saving data
+- outputting documents in views
