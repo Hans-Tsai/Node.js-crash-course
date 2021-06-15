@@ -2,8 +2,15 @@
 ===
 
 ## <font color=green>This is my own hands-on exercise of the [Node.js Crash Course tutorial series](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&start_radio=1) on The Net Ninja YouTube Channel.</font>
+
 ## <font color=green>At the end of the tutorial series. We'll create a blog website using Node.js, express.js, MongoDB.</font>
 
+## <font color=green>[MongoDB Atlas](https://www.mongodb.com/cloud/atlas)</font>
+- Cluster Name: `NodeJSCrashCourse`
+- Database Name: `node-tuts`
+- collection name: `blogs`
+- DB user name: `hans`
+- DB user password: xxxxxxxxxx
 
 [Chapter 01 --- Introduction & Setup](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&t=2s)
 ---
@@ -116,3 +123,8 @@
   + ![MVC_basics](./pics/MVC_basics.png)
 - Controller
   + ![Controller_illustration](./pics/Controller_illustration.png)
+
+[Chapter 12 --- Wrap up](https://www.youtube.com/watch?v=nYAyhRAV87A&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) on [ch12](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch11)
+---
+- add trashcan icon
+- adjust controller: `blog_details` logic
