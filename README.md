@@ -83,3 +83,20 @@
   + ![Mongoose_Model](./pics/Mongoose_Model.jpeg)
 - getting & saving data
 - outputting documents in views
+
+[Chapter 10 --- `GET`、`POST`、`DELETE` requests](https://www.youtube.com/watch?v=VVGgacjzc2Y) on [ch10](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch10)
+---
+- request types
+  + `GET`: requests to get a resource
+  + `POST`: requests to create a new data (e.g. create a new blog)
+  + `DELETE`: requests to delete a data (e.g. delete a blog)
+  + `PUT`: requests to update a data (e.g. update a blog)
+  + ![HTTP_requests_types](./pics/HTTP_requests_types.png)
+  + Exercise in this `ch10` branch
+    * ![website_all_RESTful_APIs_routes_andd_methods](./pics/website_all_RESTful_APIs_routes_andd_methods.png)
+- `POST` requests
+- route parameters
+  + The variable parts of the route that may change value.
+    * e.g. localhost:3000/blogs/<font color=blue>:id</font>
+  + ![route_parameters](./pics/route_parameters.png)
+- `DELETE` requests
