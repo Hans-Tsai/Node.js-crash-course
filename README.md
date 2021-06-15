@@ -61,6 +61,13 @@
 [Chapter 08 --- Middleware Function](https://www.youtube.com/watch?v=_GJKAs7A0_4) on [ch08](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch08)
 ---
 - what is middleware function?
+  + code which runs (on the server) between getting a request and sending a response
+  + ![middleware illustration](./pics/middleware_illustration.jpeg)
+  + examples
+    * logger middleware to log details of every request
+    * Authentication check middleware for protected routes
+    * Middleware to parse JSON data from requests
+    * Return 404 pages
   + Reference by express.js official documentation: [Writing middleware for use in Express apps](https://expressjs.com/en/guide/writing-middleware.html)
 - using `next()`
 - 3rd party middleware function
