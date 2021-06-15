@@ -68,7 +68,7 @@
     * Authentication check middleware for protected routes
     * Middleware to parse JSON data from requests
     * Return 404 pages
-  + Reference by express.js official documentation: [Writing middleware for use in Express apps](https://expressjs.com/en/guide/writing-middleware.html)
+  + Reference by `express.js` official documentation: [Writing middleware for use in Express apps](https://expressjs.com/en/guide/writing-middleware.html)
 - using `next()`
 - 3rd party middleware function
 - static files
@@ -100,3 +100,9 @@
     * e.g. localhost:3000/blogs/<font color=blue>**:id**</font>
   + ![route_parameters](./pics/route_parameters.png)
 - `DELETE` requests
+
+[Chapter 11 --- Express.Router() & Controller with MVC pattern](https://www.youtube.com/watch?v=zW_tZR0Ir3Q) on [ch11](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch11)
+---
+- `express` Router
+- MVC basics
+- Controller
