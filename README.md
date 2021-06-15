@@ -57,3 +57,11 @@
 - passing data into views
 - partials
 - adding css
+
+[Chapter 08 --- Middleware Function](https://www.youtube.com/watch?v=_GJKAs7A0_4) on [ch08](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch08)
+---
+- what is middleware function?
+  + Reference by express.js official documentation: [Writing middleware for use in Express apps](https://expressjs.com/en/guide/writing-middleware.html)
+- using `next()`
+- 3rd party middleware function
+- static files
