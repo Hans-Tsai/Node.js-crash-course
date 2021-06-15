@@ -97,6 +97,6 @@
 - `POST` requests
 - route parameters
   + The variable parts of the route that may change value.
-    * e.g. localhost:3000/blogs/<font color=blue>:id</font>
+    * e.g. localhost:3000/blogs/<font color=blue>**:id**</font>
   + ![route_parameters](./pics/route_parameters.png)
 - `DELETE` requests
