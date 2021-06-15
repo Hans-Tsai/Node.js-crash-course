@@ -1,8 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
-const Blog = require('./models/blog');
-const { result } = require('lodash');
+const blogRoutes = require('./routes/basicRoutes');
 
 /** creates an Express application */
 const app = express();
@@ -35,47 +34,10 @@ app.get('/about', (req, res) => {
     res.render('about', { title: 'About' });
 });
 
-/** blog routes */
-app.get('/blogs', (req, res) => {
-    // `Model.find()` will find all of documents inside the `blog` collection and sort them with descending order
-    Blog.find().sort({ createdAt: -1 })
-        .then(result => res.render('index', { title: 'All Blogs', blogs: result }))
-        .catch(err => console.log(err));
-});
-
-/** set up new blog POST method handler function */
-app.post('/blogs', (req, res) => {
-    const blog = new Blog(req.body);
-    blog.save()
-        .then(result => res.redirect('/blogs'))
-        .catch(err => console.log(err));
-});
-
-/** get the specified blog by its _id 
- * @description it should use semi-colon (`:`) to indicate it's a route parameter
+/** blog routes 
+ * @description apply all of those router handlers in `/routes/basicRoutes.js` file
 */
-app.get('/blogs/:id', (req, res) => {
-    // using `req.params.id` because of we're using `:id` on the above
-    const blogID = req.params.id;
-    Blog.findById(blogID)
-        .then(result => res.render('details', { blog: result, title: 'Blog Details' }))
-        .catch(err => console.log(err));
-});
-
-/** create new blog post */
-app.get('/blogs/create', (req, res) => {
-    res.render('create', { title: 'Create a new blog' });
-});
-
-/** delete the specified `_id` blog */
-app.delete('/blogs/:id', (req, res) => {
-    const blogID = req.params.id;
-
-    // always use `Model.findOneAndDelete()` instead of `Model.findOneAndRemove()` unless you have a good reason not to.
-    Blog.findByIdAndDelete(blogID)
-        .then(result => res.json({ redirect: '/blogs' }))
-        .catch(err => console.log(err));
-});
+app.use('/blogs', blogRoutes);
 
 /** 404 page */
 app.use((req, res) => {
