@@ -1,4 +1,4 @@
-Node.js Crash Course
+**Node**.js Crash Course
 ===
 
 ## <font color=green>This is my own hands-on exercise of the [Node.js Crash Course tutorial series](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=RDCMUCW5YeuERMmlnqo4oq8vwUpg&start_radio=1) on The Net Ninja YouTube Channel.</font>
@@ -45,7 +45,15 @@ Node.js Crash Course
 
 [Chapter 06 --- Express app](https://www.youtube.com/watch?v=Lr9WUkeYSA8) on [ch06](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch06)
 ---
-- What is express?
-- creating an express app
+- What is `express`?
+- creating an `express` app
 - routing & html pages
 - redirects & 404 page
+
+[Chapter 07 --- View Engines](https://www.youtube.com/watch?v=yXEesONd_54) on [ch07](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch07)
+---
+- view engines at a glance
+- `ejs` view engine
+- passing data into views
+- partials
+- adding css
