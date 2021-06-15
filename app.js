@@ -2,33 +2,36 @@ const express = require('express');
 
 /** creates an Express application */
 const app = express();
+
+/** register view engine 
+ * @note EJS templates are processed through the EJS view engine on the server - `server-side rendering`
+*/
+app.set('view engine', 'ejs');
+
 /** Binds and listens for connections on the specified host and port */
 app.listen(3000);
+
 /** Routes HTTP GET requests to the specified path with the specified callback functions */
 app.get('/', (req, res) => {
-    // express will automatically infers and sets the Content-Type response header field (e.g. text/html)
-    // res.send('<p>Home Page</p>');
-
-    // Transfers the file at the given path
-    res.sendFile('./views/index.html', { root: __dirname });
+    const blogs = [
+        { title: '標題一', snippet: '段落一' },
+        { title: '標題二', snippet: '段落二' },
+        { title: '標題三', snippet: '段落三' },
+    ];
+    res.render('index', { title: 'Home', blogs });
 });
 app.get('/about', (req, res) => {
-    res.sendFile('./views/about.html', { root: __dirname });
+    res.render('about', { title: 'About' });
 });
 
-/** redirects */
-app.get('/about-us', (req, res) => {
-    res.redirect(301, '/about');
+/** create new blog post */
+app.get('/blogs/create', (req, res) => {
+    res.render('create', { title: 'Create a new blog' });
 });
 
 /** 404 page */
-/** @function app.use()
- * @summary use this specified callback function for every incoming request
- * @description create a middleware function and fire the middleware function when the `path` argument value is matched
- * @note because it's served as a default 404 not found page, so it should at the very bottom of the code
- */
 app.use((req, res) => {
-    res.status(404).res.sendFile('./views/404.html', { root: __dirname });
+    res.status(404).render('404', { title: '404' });
 });
 
 
