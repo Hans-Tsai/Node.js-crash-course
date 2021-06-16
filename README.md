@@ -124,7 +124,7 @@
 - Controller
   + ![Controller_illustration](./pics/Controller_illustration.png)
 
-[Chapter 12 --- Wrap up](https://www.youtube.com/watch?v=nYAyhRAV87A&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) on [ch12](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch11)
+[Chapter 12 --- Wrap up](https://www.youtube.com/watch?v=nYAyhRAV87A&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU) on [ch12](https://github.com/Hans-Tsai/Node.js-crash-course/tree/ch12)
 ---
 - add trashcan icon
 - adjust controller: `blog_details` logic
