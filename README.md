@@ -5,6 +5,7 @@
 
 ## <font color=green>At the end of the tutorial series. We'll create a blog website using Node.js, express.js, MongoDB.</font>
 
+# Prerequisites
 ## <font color=green>[MongoDB Atlas](https://www.mongodb.com/cloud/atlas)</font>
 - Cluster Name: `NodeJSCrashCourse`
 - Database Name: `node-tuts`
@@ -12,6 +13,7 @@
 - DB user name: `hans`
 - DB user password: xxxxxxxxxx
 
+# Tutorial Series
 [Chapter 01 --- Introduction & Setup](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&t=2s)
 ---
 - What is Node.js?
