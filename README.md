@@ -7,11 +7,14 @@
 
 # Prerequisites
 ## <font color=green>[MongoDB Atlas](https://www.mongodb.com/cloud/atlas)</font>
-- Cluster Name: `NodeJSCrashCourse`
-- Database Name: `node-tuts`
-- collection name: `blogs`
-- DB user name: `hans`
-- DB user password: xxxxxxxxxx
+  + Step 1: **Create a `.env` file**
+  + Step 2: **`GET`** URL --- `http://localhost:3000/blogs`
+  + Relative information
+    * Cluster Name: `NodeJSCrashCourse`
+    * Database Name: `node-tuts`
+    * collection name: `blogs`
+    * DB user name: `hans`
+    * DB user password: xxxxxxxxxx
 
 # Tutorial Series
 [Chapter 01 --- Introduction & Setup](https://www.youtube.com/watch?v=zb3Qk8SG5Ms&t=2s)

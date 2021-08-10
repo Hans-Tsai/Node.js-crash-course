@@ -22,7 +22,7 @@ app.use(express.static('public'));
 /** use express framework built-in middleware function to parse incoming requests with urlencoded payloads and it's based on body-parser 
  * @description takes all the URL encoded data and passes that into an object that we can use on the request object (i.e. `req.body`)
  */
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }));
 /** use morgan library to create a HTTP request logger middleware function */
 app.use(morgan('dev'));
 
