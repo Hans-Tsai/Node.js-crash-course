@@ -89,6 +89,8 @@
 - request types
   + `GET`: requests to get a resource
   + `POST`: requests to create a new data (e.g. create a new blog)
+    > 註解: `express.json()` is a body parser for post request **except** HTML post form<br>
+    > 註解: `express.urlencoded({extended: true})` is a body parser for HTML post form
   + `DELETE`: requests to delete a data (e.g. delete a blog)
   + `PUT`: requests to update a data (e.g. update a blog)
   + ![HTTP_requests_types](./pics/HTTP_requests_types.png)
